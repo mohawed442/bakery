@@ -1,0 +1,367 @@
+@media (max-width: 767px) {
+/* قواعد CSS للهواتف الذكية */
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+/* قواعد CSS للأجهزة اللوحية */
+}
+
+@media (min-width: 1024px) {
+/* قواعد CSS لأجهزة الكمبيوتر المكتبية */
+}
+li , a{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.Settings {
+}
+.icon {
+    background-color: #f0eaea;
+    font-size: 20px;
+    padding: 10px;
+    position: fixed;
+    border-radius: 7px 0 0 7px;
+    /* box-shadow: 2px 3px 11px 0px; */
+    top: 45%;
+    right: 0;
+    
+}
+.icon i{
+    display:block;
+    margin-top: 10px;
+
+}
+
+.contner{
+    width: 80%;
+    margin: auto;
+}
+
+.li{
+    background-color:white;
+    width: 100%;
+    position:sticky;
+    top: 0px ;
+    z-index: 1;
+}
+
+.link{
+    position: relative;
+}
+.link img{
+    width: 140px;
+}
+
+
+.link ul{
+    width: 50%;
+    display: inline-block;
+    font-size: 14px;
+    text-align: end;
+    position: absolute;
+    top: 0 ;
+    right: 0;
+    
+}
+.link ul li {
+    margin-left: 30px;
+    display: inline-block;
+    
+
+}
+.link ul li a{
+    color: black;
+}
+
+
+.lien2{
+    position: relative;
+    background-image: url(../img/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 92vh;
+}
+
+.lien2  {
+    margin-bottom: 30px;
+}
+.tixt { 
+    text-align: center;
+    color: white;
+    width: 69%;
+    margin: auto;
+    padding: 60px;
+}
+
+.tixt p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 2;
+    font-family: sans-serif;
+}
+.tixt .nbv{
+    margin-bottom: 71px;
+}
+
+.tixt h2 {
+    font-size: 70px;
+    font-family: monospace;
+}
+.tixt a{
+    width: 50px;
+    background-color: initial;
+    border: 1px white solid;
+    border-radius: 7px;
+    color: white;
+    margin-right: 10px;
+    padding: 13px;
+
+}
+.tixt .md{
+    background-color: #8e7754;
+    border: 1px #8e7754 solid;
+}
+
+
+
+.lien3 {
+    margin-top: 50px;
+    position: relative;
+    color: #686868;
+    line-height: 1.8;
+    margin-bottom: 110px;
+}
+.lien3  .contner .tr{
+}
+.lien3  .contner .tr {
+}
+
+.lien3  .contner .tr img{
+    width: 47%;
+    margin-right: 55px;
+    
+}
+.lien3  .contner .tr .dsa{
+    position: absolute;
+    top: 10px ;
+    margin-top: 0;
+    width: 39%;
+    display: inline-block;
+}
+.lien3  .contner .tr .dsa .sp{
+    margin-top: 40px;
+}
+.lien3  .contner .tr .dsa .sp i{
+    border-radius: 50%;
+    font-size: 18px;
+    border: #686868 1px solid;
+    padding: 12px;
+    margin: 10px 10px 0 0;
+}
+
+.lien4 {
+    position: relative;
+    background-color:#f8f8f8;
+    padding: 50px 0;
+}
+.lien4 .contner {
+    margin-top: 50px;
+    position: relative;
+    color: #686868;
+    line-height: 1.8;
+
+}
+.lien4 .contner .tixt3 {
+    margin-top: 0;
+    width:  47%;
+    margin-right: 55px;
+    display: inline-block;
+
+}
+
+.lien4 .contner img{
+    width: 47%;
+
+}
+
+
+
+.line5 {
+    /* margin: 50px 0; */
+}
+.line5 .contner {
+    text-align: center;
+    color: #686868;
+    line-height: 1.8;
+}
+.line5 .contner h3{
+    font-size: 28px;
+    font-weight: 200;
+}
+.line5 .contner p{
+    margin: 40px 0;
+}
+.line5 .contner .ki{
+    width:33% ;
+    display: inline-block;
+}
+.line5 .contner .ki span{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.line5 .contner .ki img{
+    width: 300px;
+    display:inline-block;
+}
+
+
+.line {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+}
+.line .contner {
+}
+.line .contner .troo {
+}
+.line .contner .troo .iou  {
+    width: 49%;
+    display: inline-block;
+
+
+}
+.line .contner .troo .iou h3{
+    margin: 0 0 43px 0;
+    font-size: 30px ;
+}
+.line .contner .troo .iou p{
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #686868 ;
+
+}
+
+.line .contner .troo .iou p i{
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 15px 15px 0 0;
+    background-color: #8e7754;
+    padding: 10px;
+    color: white;
+}
+
+.line .contner .troo  img {
+    width: 47%;
+    margin-left: 35px;
+    display: inline-block;
+}
+
+
+
+.loo { background-color: #403d38;
+    position: relative;
+    height: 400px;
+    color: #969696;
+}
+.loo .contner {
+}
+
+.loo .contner  .ds {  
+    margin-bottom: 30px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.loo .contner .mo {
+    width: 24%;
+    display: inline-block;
+    line-height: 1.8;
+    font-size: 16px;
+
+
+}
+
+.no  {
+    width: 24%;
+    display: inline-block;
+    font-size: 16px;
+    text-align: start;
+}
+
+.bo {
+    width: 24%;
+    display: inline-block;
+    font-size: 16px;
+    text-align: start;
+    
+}
+.no ul{
+    border-bottom: rgba(255,255,255,0.05) 1px solid ;
+}
+.no ul li  {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: rgba(255,255,255,0.05) 1px solid ;
+    
+}
+.vo ul li {
+    padding-bottom: 20px;
+    margin-bottom: 48px;
+    border-bottom: rgba(255,255,255,0.05) 1px solid ;
+    
+}
+.bo ul li{
+    margin-bottom: 13px;
+    padding-bottom: 20px;
+    border-bottom: rgba(255,255,255,0.05) 1px solid 
+}
+
+.vo {
+    width: 25%;
+    display: inline-block;
+    font-size: 13px;
+    text-align: start;
+}
+
+
+
+footer  {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #353330;
+}
+footer.contner .loi {
+}
+footer .contner .loi .in {
+    margin-top: 30px ;
+
+    
+}
+footer .contner .loi  img{
+    margin-bottom: 10px;
+
+}
+footer .contner .loi  p{
+    margin-top: 30px;
+}
+footer .contner .loi .in i {
+    margin-left: 6px;
+    background-color: #484540;
+    color: #8c8a86;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
